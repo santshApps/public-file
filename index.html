@@ -1,261 +1,1148 @@
-
+<!--
+Author: santosh shrivastava
+Author URL: http://sansfoundation.net
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://sansfoundation.net/licenses/by/3.0/
+-->
 <!DOCTYPE html>
-<!--[if IE]><![endif]-->
-<!--[if IE 8 ]><html dir="ltr" lang="en" class="ie8"><![endif]-->
-<!--[if IE 9 ]><html dir="ltr" lang="en" class="ie9"><![endif]-->
-<!--[if (gt IE 9)|!(IE)]><!-->
-<html dir="ltr" lang="en">
-<!--<![endif]-->
+<html>
 <head>
-<meta charset="UTF-8" />
+<title>AddMarts India</title>
+<!-- for-mobile-apps -->
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Addmarts India</title>
-<base href="http://addmarts.com/" />
-<meta name="description" content="My Store" />
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<link href="http://addmarts.com/image/catalog/ADM.jpg" rel="icon" />
-<script src="http://addmarts.com/catalog/view/javascript/jquery/jquery-2.1.1.min.js" type="text/javascript"></script>
-<link href="http://addmarts.com/catalog/view/javascript/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen" />
-<script src="http://addmarts.com/catalog/view/javascript/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
-<link href="catalog/view/javascript/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
-<link href="//fonts.googleapis.com/css?family=Open+Sans:400,400i,300,700" rel="stylesheet" type="text/css" />
-<link href="http://addmarts.com/catalog/view/theme/default/stylesheet/stylesheet.css" rel="stylesheet">
-<link href="http://addmarts.com/catalog/view/javascript/jquery/flexslider/flexslider.css" type="text/css" rel="stylesheet" media="screen" />
-<script src="http://addmarts.com/catalog/view/javascript/common.js" type="text/javascript"></script>
-<script src="http://addmarts.com/catalog/view/javascript/jquery/flexslider/jquery.flexslider-min.js" type="text/javascript"></script>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Addmarts is a leading Digital Marketing Agency in India, specialising in the internet marketing, design & development of websites, we are also expertise in SEO, SMO, ORM and other relevant services." />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
+		function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- //for-mobile-apps -->
+<link rel="stylesheet" href="css/swipebox.css">
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<!-- js -->
+<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+<!-- //js -->
+<!--animate-->
+<link href="css/animate.css" rel="stylesheet" type="text/css" media="all">
+<script src="js/wow.min.js"></script>
+	<script>
+		 new WOW().init();
+	</script>
+<!--//end-animate-->
+<link href='//fonts.googleapis.com/css?family=Lato:400,100,100italic,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+<link href='//fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+<script src="js/responsiveslides.min.js"></script>
+		<!-- swipe box js -->
+			<script src="js/jquery.swipebox.min.js"></script> 
+				<script type="text/javascript">
+					jQuery(function($) {
+						$(".swipebox").swipebox();
+					});
+			</script>
+		<!-- //swipe box js -->
+	<!-- start-smoth-scrolling -->
+		<script type="text/javascript" src="js/move-top.js"></script>
+		<script type="text/javascript" src="js/easing.js"></script>
+		<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+				});
+			});
+		</script>
+	<!-- start-smoth-scrolling -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </head>
-<body class="common-home">
-<nav id="top">
-  <div class="container">
-            <div id="top-links" class="nav pull-right">
-      <ul class="list-inline">
-        <li><a href="http://addmarts.com/index.php?route=information/contact"><i class="fa fa-phone"></i></a> <span class="hidden-xs hidden-sm hidden-md">9572791550</span></li>
-        <li class="dropdown"><a href="http://addmarts.com/index.php?route=account/account" title="My Account" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> <span class="hidden-xs hidden-sm hidden-md">My Account</span> <span class="caret"></span></a>
-          <ul class="dropdown-menu dropdown-menu-right">
-                        <li><a href="http://addmarts.com/index.php?route=account/register">Register</a></li>
-            <li><a href="http://addmarts.com/index.php?route=account/login">Login</a></li>
-                      </ul>
-        </li>
-        <li><a href="http://addmarts.com/index.php?route=account/wishlist" id="wishlist-total" title="Wish List (0)"><i class="fa fa-heart"></i> <span class="hidden-xs hidden-sm hidden-md">Wish List (0)</span></a></li>
-        <li><a href="http://addmarts.com/index.php?route=checkout/cart" title="Shopping Cart"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md">Shopping Cart</span></a></li>
-        <li><a href="http://addmarts.com/index.php?route=checkout/checkout" title="Checkout"><i class="fa fa-share"></i> <span class="hidden-xs hidden-sm hidden-md">Checkout</span></a></li>
-      </ul>
-    </div>
-  </div>
-</nav>
-<header>
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-4">
-        <div id="logo">
-                    <a href="http://addmarts.com/index.php?route=common/home"><img src="http://addmarts.com/image/catalog/ADM.jpg" title="Addmarts india" alt="Addmarts india" class="img-responsive" /></a>
+<body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--banner-->
+<div class="banner">
+	<div class="container">
+			<div class="header-nav">
+						<nav class="navbar navbar-default">
+							<!-- Brand and toggle get grouped for better mobile display -->
+							<div class="navbar-header logo">
+								<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+									<span class="sr-only">Toggle navigation</span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+								</button>
+								<h1>
+									<a class="navbar-brand link link--yaku" href="index.html"><span>A</span><span>D</span><span>D</span><span>M</span><span>A</span><span>R</span><span>T</span><span>S</span>
+
+
+</a>
+								</h1>
+								
+							</div>
+							<!-- Collect the nav links, forms, and other content for toggling -->
+							<div class="collapse navbar-collapse nav-wil" id="bs-example-navbar-collapse-1">
+								<nav class="cl-effect-1">
+									<ul class="nav navbar-nav ">
+										<li><a href="/index.php">SHOP NOW</a></li>
+										<li><a class="hvr-overline-from-left button2 scroll" href="#about">About</a></li>
+										<li><a class="hvr-overline-from-left button2 scroll" href="#team">Team</a></li>
+										<li><a class="hvr-overline-from-left button2 scroll" href="#services">Services</a></li>
+										<li><a class="hvr-overline-from-left button2 scroll" href="#work">work</a></li>
+
+										<li><a href="http://addmarts.com/career.html">Career</a></li>
+
+
+										<li><a class="hvr-overline-from-left button2 scroll" href="#portfolio">Why AddMarts</a></li>
+										<li><a class="hvr-overline-from-left button2 scroll" href="#contact">Contact</a></li>
+									</ul>
+								</nav>
+							</div><!-- /navbar-collapse -->
+						</nav>
+			</div>
+				<script>
+						// You can also use "$(window).load(function() {"
+						$(function () {
+						 // Slideshow 4
+						$("#slider3").responsiveSlides({
+							auto: true,
+							pager: false,
+							nav: false,
+							speed: 500,
+							namespace: "callbacks",
+							before: function () {
+						$('.events').append("<li>before event fired.</li>");
+						},
+						after: function () {
+							$('.events').append("<li>after event fired.</li>");
+							}
+							});
+						});
+				</script>
+		<div  id="top" class="callbacks_container">
+			<ul class="rslides" id="slider3">
+				<li>
+					<div class="banner-info">
+						<h3><span>We offers<br>Your business a number of unique & useful features that help you to maximize your campaign's.
+
+</span></h3>
+						<p>for the most ambitious companies</p>
+						<div class="clearfix"></div>
+						<div class="arrow text-center"><a class="scroll" href="#about"><img src="images/icon.png" alt=" " /></a></div>
+					</div>
+				</li>
+				<li>
+					<div class="banner-info">
+						<h3> We expertise in <span>  web design & development, Apps development, Digital marketing, Content writing and many more...
+</span></h3>
+						<p>for the most ambitious companies</p>
+						<div class="clearfix"></div>
+						<div class="arrow text-center"><a class="scroll" href="#about"><img src="images/icon.png" alt=" " /></a></div>
+					</div>
+				</li>
+			</ul>
+		</div>
+		<div class="clearfix"></div>
+	</div>
+</div>
+<!--//banner-->
+<!-- about -->
+<div id="about" class="about all_pad text-center">
+	<div class="container">
+		<h3 class="title">About AddMarts</h3>
+		<p class="para"><span>AddMarts</span> 
+ Campaigns are great strategies that can improve the visibility of your Product and brand it is an efficient way that can help you adopt with the demand of the times and to evolve an effective Marketing Plan and Strategy.
+</p>
+		<div class="col-md-4 abt-grid">
+			<div class="hi-icon-wrap hi-icon-effect-7 hi-icon-effect-7b">
+				<a href="#" class="hi-icon icon1"></a>
+			</div>
+			<h4>BRANDING</h4>
+			<p>
+
+
+Developing a brand strategy guides a company through nurturing, protecting and growing one of its most valuable assets. Successful brand management creates a motivation to buy, builds customer loyalty and creates credibility.
+
+
+
+ </p>
+		</div>
+		<div class="col-md-4 abt-grid yes_marg">
+			<div class="hi-icon-wrap hi-icon-effect-7 hi-icon-effect-7b">
+				<a href="#" class="hi-icon icon2"></a>
+			</div>
+			<h4>MARKETING</h4>
+			<p>
+
+Market research is essential for the survival and growth of your business. It enables you to improve the competitive nature of your business and reduce your risks.
+</p>
+		</div>
+		<div class="col-md-4 abt-grid">
+			<div class="hi-icon-wrap hi-icon-effect-7 hi-icon-effect-7b">
+				<a href="#" class="hi-icon icon3"></a>
+			</div>
+			<h4>PROMOTION</h4>
+			<p>
+
+
+Promotion is a key element in putting across the benefits of your product or service to the customers. Well-designed marketing and promotional strategies ensure long-term success, bring in more customers and ensure profitability for businesses.
+
+</p>
+		</div>
+		<div class="clearfix"></div>
+	</div>
+</div>
+<!-- //about -->
+
+<!-- philosophy -->
+<div class="philosophy all_pad text-center">
+	<div class="container">
+		<h3 class="title">OUR MISSION </h3>
+		<p class="para">As<span> AddMarts India</span> Our mission is to design, develop, and implement
+the best marketing strategies around Our digital marketing agency does this by offering
+total brand marketing solutions.
+
+
+
+
+
+
+
+
+</p>
+	</div>
+</div>	
+<!-- //philosophy -->
+
+<!-- team -->
+<div id="team" class="team all_pad text-center">
+	<div class="container">
+		<h3 class="title">OUR TEAM</h3>
+		<p class="para"><span> AddMarts</span> has a team of young, enthusiastic and professional team members. They are all qualified and experienced to take on their jobs. A wonderful sense of team spirit permeates through our work.</p>
+			<div class="col-md-3 about-poleft">
+				<div class="about_img"><img src="http://addmarts.com/images/15665690_716627365161338_320731101672841231_n.jpg" alt="">
+				  <h5>Himanshu Srivastava<span>Co-Founder</span></h5>
+				  <div class="about_opa">
+					<ul class="fb_icons2 text-center">
+						<li><a class="fb" href="#"></a></li>
+						<li><a class="twit" href="https://www.facebook.com/himanshu.raj.543908"></a></li>
+					</ul>
+				  </div>
+				</div>
+			</div>
+			<div class="col-md-3 about-poleft yes_marg">
+				<div class="about_img"><img src="/shanu.jpg" alt="">
+				  <h5>Shanu Shrivastava<span>IT Instructor</span></h5>
+				  <div class="about_opa">
+					<ul class="fb_icons2 text-center">
+						<li><a class="fb" href="#"></a></li>
+						<li><a class="twit" href="https://www.facebook.com/shanu.shrivastava.9469"></a></li>
+					</ul>
+				  </div>
+				</div>
+			</div>
+			<div class="col-md-3 about-poleft yes_marg">
+				<div class="about_img"><img src="http://addmarts.com/images/15665743_716627331828008_8609578097889948440_n.jpg" alt="">
+				  <h5>Sakshi Arora<span>Content Writer</span></h5>
+				  <div class="about_opa">
+					<ul class="fb_icons2 text-center">
+						<li><a class="fb" href="#"></a></li>
+						<li><a class="twit" href="#"></a></li>
+					</ul>
+				  </div>
+				</div>
+			</div>
+			<div class="col-md-3 about-poleft ">
+				<div class="about_img"><img src="http://addmarts.com/images/15622590_716627445161330_1357202181819103991_n.jpg" alt="">
+				  <h5>Santosh Shrivastava<span>Co-Founder</span></h5>
+				  <div class="about_opa">
+					<ul class="fb_icons2 text-center">
+						<li><a class="fb" href="#"></a></li>
+						<li><a class="twit" href="https://www.facebook.com/santosh.shrivastava.7587"></a></li>
+					</ul>
+				  </div>
+				</div>
+			</div>
+			<div class="clearfix"></div>
+	</div>
+</div>
+<!-- //team -->
+<!-- services -->
+
+
+
+
+
+
+<style type="text/css"> .button { width: 150px; padding: 10px; background-color: orange; box-shadow: -8px 8px 10px 3px rgba(0,0,0,0.2); font-weight:bold; text-decoration:none; } #cover{ position:fixed; top:0; left:0; background:rgba(0,0,0,0.6);
+ z-index:5; width:100%; height:100%; display:none; }
+ #loginScreen { height:380px; width:340px; margin:0 auto; position:relative; z-index:10; display:none; background: url(login.png) no-repeat; border:5px solid #cccccc; border-radius:10px; } #loginScreen:target, #loginScreen:target +
+ #cover{ display:block; opacity:2; } .cancel { display:block; position:absolute; top:3px; right:2px; background:rgb(245,245,245); color:black; height:30px; width:35px; font-size:30px; text-decoration:none; text-align:center; font-weight:bold; }
+h3 {color:orange;}
+ </style> <body> <div align="center"> 
+<br><br><br><br> </div> <div id="loginScreen"> <a href="#" class="cancel">&times;</a>
+
+
+
+<div class="form-style-5">
+<form action="price.php" method="post">
+<fieldset>
+<legend><span class="number">*
+
+
+</span> Personal Info</legend>
+<input type="text" name="field1" placeholder="Your Name *">
+<input type="email" name="field2" placeholder="Your Email *">
+<input type="number" name="field3" placeholder="Mobile Number*">
+
+
+
+
+
+<label for="job"></label>
+ 
+</fieldset>
+<fieldset>
+<legend>
+
+
+
+
+
+<span class="number">*
+
+
+</span> Your Requirement</legend>
+<textarea name="field4" placeholder="Messages"></textarea>
+</fieldset>
+<input type="submit" value="Get A Quote" />
+</form>
+</div>
+
+<style type="text/css">
+.form-style-5{
+    max-width: 500px;
+    padding: 10px 20px;
+    background: #f4f7f8;
+    margin: 10px auto;
+    padding: 20px;
+    background: #f4f7f8;
+    border-radius: 8px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+.form-style-5 fieldset{
+    border: none;
+}
+.form-style-5 legend {
+    font-size: 1.4em;
+    margin-bottom: 10px;
+}
+.form-style-5 label {
+    display: block;
+    margin-bottom: 8px;
+}
+.form-style-5 input[type="text"],
+.form-style-5 input[type="date"],
+.form-style-5 input[type="datetime"],
+.form-style-5 input[type="email"],
+.form-style-5 input[type="number"],
+.form-style-5 input[type="search"],
+.form-style-5 input[type="time"],
+.form-style-5 input[type="url"],
+.form-style-5 textarea,
+.form-style-5 select {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    background: rgba(255,255,255,.1);
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    margin: 0;
+    outline: 0;
+    padding: 7px;
+    width: 100%;
+    box-sizing: border-box; 
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box; 
+    background-color: #e8eeef;
+    color:#8a97a0;
+    -webkit-box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+    box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+    margin-bottom: 30px;
+    
+}
+.form-style-5 input[type="text"]:focus,
+.form-style-5 input[type="date"]:focus,
+.form-style-5 input[type="datetime"]:focus,
+.form-style-5 input[type="email"]:focus,
+.form-style-5 input[type="number"]:focus,
+.form-style-5 input[type="search"]:focus,
+.form-style-5 input[type="time"]:focus,
+.form-style-5 input[type="url"]:focus,
+.form-style-5 textarea:focus,
+.form-style-5 select:focus{
+    background: #d2d9dd;
+}
+.form-style-5 select{
+    -webkit-appearance: menulist-button;
+    height:35px;
+}
+.form-style-5 .number {
+    background: #1abc9c;
+    color: #fff;
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+    font-size: 0.8em;
+    margin-right: 4px;
+    line-height: 30px;
+    text-align: center;
+    text-shadow: 0 1px 0 rgba(255,255,255,0.2);
+    border-radius: 15px 15px 15px 0px;
+}
+
+.form-style-5 input[type="submit"],
+.form-style-5 input[type="button"]
+{
+    position: relative;
+    display: block;
+    padding: 19px 39px 18px 39px;
+    color: #FFF;
+    margin: 0 auto;
+    background: #1abc9c;
+    font-size: 18px;
+    text-align: center;
+    font-style: normal;
+    width: 100%;
+    border: 1px solid #16a085;
+    border-width: 1px 1px 3px;
+    margin-bottom: 10px;
+}
+.form-style-5 input[type="submit"]:hover,
+.form-style-5 input[type="button"]:hover
+{
+    background: #109177;
+}
+</style>
+
+
+
+
+
+</div>
+
+
+
+
+
+ </div> <div id="cover" > </div> 
+
+
+
+
+
+
+
+
+
+<div id="services" class="services all_pad text-center">
+	<div class="container">
+		<h3 class="title">OUR SERVICES</h3>
+		
+ <section id="services" class="service-item">
+	   <div class="container">
+            <div class="center wow fadeInDown">
                   </div>
-      </div>
-      <div class="col-sm-5"><div id="search" class="input-group">
-  <input type="text" name="search" value="" placeholder="Search" class="form-control input-lg" />
-  <span class="input-group-btn">
-    <button type="button" class="btn btn-default btn-lg"><i class="fa fa-search"></i></button>
-  </span>
-</div>      </div>
-      <div class="col-sm-3"><div id="cart" class="btn-group btn-block">
-  <button type="button" data-toggle="dropdown" data-loading-text="Loading..." class="btn btn-inverse btn-block btn-lg dropdown-toggle"><i class="fa fa-shopping-cart"></i> <span id="cart-total">0 item(s) - Rs0.00</span></button>
-  <ul class="dropdown-menu pull-right">
-        <li>
-      <p class="text-center">Your shopping cart is empty!</p>
-    </li>
-      </ul>
+
+            <a href="#loginScreen"> <div class="row">
+
+                <div class="col-sm-6 col-md-4">
+                    <div class="media services-wrap wow fadeInDown">
+                        <div class="pull-left">
+                           </div>
+<div class="well">
+                        <div class="media-body">
+                            <h3 class="media-heading">Web Design & Development</h3>
+                            
+
+
+
 </div>
+                    </div>
+                </div>
 </div>
-    </div>
-  </div>
-</header>
-<div class="container">
-  <nav id="menu" class="navbar">
-    <div class="navbar-header"><span id="category" class="visible-xs">Categories</span>
-      <button type="button" class="btn btn-navbar navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse"><i class="fa fa-bars"></i></button>
-    </div>
-    <div class="collapse navbar-collapse navbar-ex1-collapse">
-      <ul class="nav navbar-nav">
-                        <li><a href="http://addmarts.com/index.php?route=product/category&amp;path=61">Bulk SMS</a></li>
-                                <li><a href="http://addmarts.com/index.php?route=product/category&amp;path=62">Social Media</a></li>
-                                <li><a href="http://addmarts.com/index.php?route=product/category&amp;path=59">Website</a></li>
-                                <li><a href="http://addmarts.com/index.php?route=product/category&amp;path=60">Software</a></li>
-                      </ul>
-    </div>
-  </nav>
+                <div class="col-sm-6 col-md-4">
+                    <div class="media services-wrap wow fadeInDown">
+                        <div class="pull-left">
+                           </div>
+<div class="well">
+                        <div class="media-body">
+                            <h3 class="media-heading">Search Engine Optimisation
+                            
+                        </div>
+                    </div>
+                </div>
 </div>
-<div class="container">
-  <div class="row">                <div id="content" class="col-sm-12"><div id="slideshow0" class="flexslider">
-  <ul class="slides">
-            <li><img src="http://addmarts.com/image/cache/catalog/9015776679-Best-deal-on-Digital-Advertisement-in-Delhi-ncr_1-1140x380.jpg" alt="MacBookAir" class="img-responsive" /></li>
-                <li><img src="http://addmarts.com/image/cache/catalog/apps-1140x380.png" alt="ios" class="img-responsive" /></li>
-                <li><img src="http://addmarts.com/image/cache/catalog/android-apps-1140x380.jpg" alt="Android" class="img-responsive" /></li>
-                <li><img src="http://addmarts.com/image/cache/catalog/banner06-1140x380.jpg" alt="iPhone 6" class="img-responsive" /></li>
-                <li><img src="http://addmarts.com/image/cache/catalog/Web_Designing-Bihar-1140x380.png" alt="Adm" class="img-responsive" /></li>
-                <li><img src="http://addmarts.com/image/cache/catalog/Unitech-Website-Software-Opt-1140x380.jpg" alt="sOFTWARE" class="img-responsive" /></li>
-          </ul>
+                <div class="col-sm-6 col-md-4">
+                    <div class="media services-wrap wow fadeInDown">
+                        <div class="pull-left">
+                               </div>
+<div class="well">
+                        <div class="media-body">
+                            <h3 class="media-heading">Search Engine Marketing</h3>
+                            
+                        </div>
+                    </div>
+                </div>  
 </div>
-<script type="text/javascript"><!--
-$('#slideshow0').flexslider({
-	animation: 'slide',
-	animationLoop: true,
-	itemWidth: 1140});
---></script><h3>Featured</h3>
-<div class="row product-layout">
-    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-    <div class="product-thumb transition">
-      <div class="image"><a href="http://addmarts.com/index.php?route=product/product&amp;product_id=43"><img src="http://addmarts.com/image/cache/catalog/download-200x200.jpg" alt="Billing Software" title="Billing Software" class="img-responsive" /></a></div>
-      <div class="caption">
-        <h4><a href="http://addmarts.com/index.php?route=product/product&amp;product_id=43">Billing Software</a></h4>
-        <p>Billing Software @8000Addmarts India
-	..</p>
-                        <p class="price">
-                    Rs8,000.00                              <span class="price-tax">Ex Tax: Rs8,000.00</span>
-                  </p>
-              </div>
-      <div class="button-group">
-        <button type="button" onclick="cart.add('43');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md">Add to Cart</span></button>
-        <button type="button" data-toggle="tooltip" title="Add to Wish List" onclick="wishlist.add('43');"><i class="fa fa-heart"></i></button>
-        <button type="button" data-toggle="tooltip" title="Compare this Product" onclick="compare.add('43');"><i class="fa fa-exchange"></i></button>
-      </div>
-    </div>
-  </div>
-    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-    <div class="product-thumb transition">
-      <div class="image"><a href="http://addmarts.com/index.php?route=product/product&amp;product_id=40"><img src="http://addmarts.com/image/cache/catalog/download-200x200.png" alt="Basic Dynamic Website" title="Basic Dynamic Website" class="img-responsive" /></a></div>
-      <div class="caption">
-        <h4><a href="http://addmarts.com/index.php?route=product/product&amp;product_id=40">Basic Dynamic Website</a></h4>
-        <p>15 Pages Website CreationProducts/Image Gallery PageOnline Contact/Enquiry FormResponsive Design (Mo..</p>
-                        <p class="price">
-                    Rs12,000.00                              <span class="price-tax">Ex Tax: Rs12,000.00</span>
-                  </p>
-              </div>
-      <div class="button-group">
-        <button type="button" onclick="cart.add('40');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md">Add to Cart</span></button>
-        <button type="button" data-toggle="tooltip" title="Add to Wish List" onclick="wishlist.add('40');"><i class="fa fa-heart"></i></button>
-        <button type="button" data-toggle="tooltip" title="Compare this Product" onclick="compare.add('40');"><i class="fa fa-exchange"></i></button>
-      </div>
-    </div>
-  </div>
-    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-    <div class="product-thumb transition">
-      <div class="image"><a href="http://addmarts.com/index.php?route=product/product&amp;product_id=42"><img src="http://addmarts.com/image/cache/catalog/download (1)-200x200.jpg" alt="Transactional SMS 1 Lacks" title="Transactional SMS 1 Lacks" class="img-responsive" /></a></div>
-      <div class="caption">
-        <h4><a href="http://addmarts.com/index.php?route=product/product&amp;product_id=42">Transactional SMS 1 Lacks</a></h4>
-        <p>Mighty₹14,000100000 SMS CreditUnlimited Validity24/7 SupportInstant ActivationSender ID
-..</p>
-                        <p class="price">
-                    Rs14,000.00                              <span class="price-tax">Ex Tax: Rs14,000.00</span>
-                  </p>
-              </div>
-      <div class="button-group">
-        <button type="button" onclick="cart.add('42');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md">Add to Cart</span></button>
-        <button type="button" data-toggle="tooltip" title="Add to Wish List" onclick="wishlist.add('42');"><i class="fa fa-heart"></i></button>
-        <button type="button" data-toggle="tooltip" title="Compare this Product" onclick="compare.add('42');"><i class="fa fa-exchange"></i></button>
-      </div>
-    </div>
-  </div>
-    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-    <div class="product-thumb transition">
-      <div class="image"><a href="http://addmarts.com/index.php?route=product/product&amp;product_id=30"><img src="http://addmarts.com/image/cache/catalog/download (2)-200x200.jpg" alt="TollFree Number Basic 12 months" title="TollFree Number Basic 12 months" class="img-responsive" /></a></div>
-      <div class="caption">
-        <h4><a href="http://addmarts.com/index.php?route=product/product&amp;product_id=30">TollFree Number Basic 12 months</a></h4>
-        <p>TollFree Number Basic 12 months..</p>
-                        <p class="price">
-                    Rs10,000.00                              <span class="price-tax">Ex Tax: Rs10,000.00</span>
-                  </p>
-              </div>
-      <div class="button-group">
-        <button type="button" onclick="cart.add('30');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md">Add to Cart</span></button>
-        <button type="button" data-toggle="tooltip" title="Add to Wish List" onclick="wishlist.add('30');"><i class="fa fa-heart"></i></button>
-        <button type="button" data-toggle="tooltip" title="Compare this Product" onclick="compare.add('30');"><i class="fa fa-exchange"></i></button>
-      </div>
-    </div>
-  </div>
-  </div>
-<div id="carousel0" class="flexslider carousel">
-  <ul class="slides">
-            <li><img src="http://addmarts.com/image/cache/catalog/ADM-130x100.jpg" alt="Starbucks" class="img-responsive" /></li>
-                <li><img src="http://addmarts.com/image/cache/catalog/download-130x100.jpg" alt="Dell" class="img-responsive" /></li>
-                <li><img src="http://addmarts.com/image/cache/catalog/download (3)-130x100.jpg" alt="Harley Davidson" class="img-responsive" /></li>
-                <li><img src="http://addmarts.com/image/cache/catalog/download (2)-130x100.jpg" alt="Canon" class="img-responsive" /></li>
-                <li><img src="http://addmarts.com/image/cache/catalog/download (1)-130x100.jpg" alt="Burger King" class="img-responsive" /></li>
-                <li><img src="http://addmarts.com/image/cache/catalog/FB_IMG_1488043340613-130x100.jpg" alt="Coca Cola" class="img-responsive" /></li>
-                <li><img src="http://addmarts.com/image/cache/catalog/ADM-130x100.jpg" alt="Sony" class="img-responsive" /></li>
-                <li><img src="http://addmarts.com/image/cache/catalog/15589722_392037577806730_2438097221624661280_n-130x100.jpg" alt="RedBull" class="img-responsive" /></li>
-                <li><img src="http://addmarts.com/image/cache/catalog/download-130x100.jpg" alt="Nintendo" class="img-responsive" /></li>
-                <li><img src="http://addmarts.com/image/cache/catalog/14591597_353446474999174_378626254809846949_n-130x100.jpg" alt="NFL" class="img-responsive" /></li>
-                <li><img src="http://addmarts.com/image/cache/catalog/15589722_392037577806730_2438097221624661280_n-130x100.jpg" alt="Disney" class="img-responsive" /></li>
-          </ul>
+                <div class="col-sm-6 col-md-4">
+                    <div class="media services-wrap wow fadeInDown">
+                        <div class="pull-left">
+                             </div>
+<div class="well">
+                        <div class="media-body">
+                            <h3 class="media-heading">Website Management</h3>
+                            
+                        </div>
+                    </div>
+                </div>
 </div>
-<script type="text/javascript"><!--
-$(window).load(function() {
-$('#carousel0').flexslider({
-	animation: 'slide',
-	itemWidth: 130,
-	itemMargin: 100,
-	minItems: 2,
-    maxItems: 4
-});});
---></script></div>
-    </div>
+                <div class="col-sm-6 col-md-4">
+                    <div class="media services-wrap wow fadeInDown">
+                        <div class="pull-left">
+                          </div>
+<div class="well">
+                        <div class="media-body">
+                            <h3 class="media-heading">Content writing</h3>
+                            
+                        </div>
+                    </div>
+                </div>
 </div>
-<footer>
-  <div class="container">
-    <div class="row">
-            <div class="col-sm-3">
-        <h5>Information</h5>
-        <ul class="list-unstyled">
-                    <li><a href="http://addmarts.com/index.php?route=information/information&amp;information_id=4">About Us</a></li>
-                    <li><a href="http://addmarts.com/index.php?route=information/information&amp;information_id=6">Delivery Information</a></li>
-                    <li><a href="http://addmarts.com/index.php?route=information/information&amp;information_id=3">Privacy Policy</a></li>
-                    <li><a href="http://addmarts.com/index.php?route=information/information&amp;information_id=5">Terms &amp; Conditions</a></li>
-                  </ul>
-      </div>
-            <div class="col-sm-3">
-        <h5>Customer Service</h5>
-        <ul class="list-unstyled">
-          <li><a href="http://addmarts.com/index.php?route=information/contact">Contact Us</a></li>
-          <li><a href="http://addmarts.com/index.php?route=account/return/add">Returns</a></li>
-          <li><a href="http://addmarts.com/index.php?route=information/sitemap">Site Map</a></li>
-        </ul>
-      </div>
-      <div class="col-sm-3">
-        <h5>Extras</h5>
-        <ul class="list-unstyled">
-          <li><a href="http://addmarts.com/index.php?route=product/manufacturer">Brands</a></li>
-          <li><a href="http://addmarts.com/index.php?route=account/voucher">Gift Vouchers</a></li>
-          <li><a href="http://addmarts.com/index.php?route=affiliate/account">Affiliates</a></li>
-          <li><a href="http://addmarts.com/index.php?route=product/special">Specials</a></li>
-        </ul>
-      </div>
-      <div class="col-sm-3">
-        <h5>My Account</h5>
-        <ul class="list-unstyled">
-          <li><a href="http://addmarts.com/index.php?route=account/account">My Account</a></li>
-          <li><a href="http://addmarts.com/index.php?route=account/order">Order History</a></li>
-          <li><a href="http://addmarts.com/index.php?route=account/wishlist">Wish List</a></li>
-          <li><a href="http://addmarts.com/index.php?route=account/newsletter">Newsletter</a></li>
-        </ul>
-      </div>
-    </div>
-    <hr>
+                <div class="col-sm-6 col-md-4">
+                    <div class="media services-wrap wow fadeInDown">
+                        <div class="pull-left">
+                             </div>
+<div class="well">
+                        <div class="media-body">
+                            <h3 class="media-heading">Display Advertising</h3>
+                            
+                        </div>
+                    </div>
+</div>
+                </div>                                                
+            </div><!--/.row-->
+        </div><!--/.container-->
+    </section><!--/#services-->
     
 
 
 
 
+<section id="services" class="service-item">
+	   <div class="container">
+            <div class="center wow fadeInDown">
+                  </div>
+
+            <div class="row">
+
+                <div class="col-sm-6 col-md-4">
+                    <div class="media services-wrap wow fadeInDown">
+                        <div class="pull-left">
+                           </div>
+<div class="well">
+                        <div class="media-body">
+                            <h3 class="media-heading">Pay Per Click</h3>
+                            
+                        </div>
+                    </div>
+                </div>
+</div>
+                <div class="col-sm-6 col-md-4">
+                    <div class="media services-wrap wow fadeInDown">
+                        <div class="pull-left">
+                           </div>
+<div class="well">
+                        <div class="media-body">
+                            <h3 class="media-heading">Cent Per Million</h3>
+                            
+                        </div>
+                    </div>
+                </div>
+</div>
+                <div class="col-sm-6 col-md-4">
+                    <div class="media services-wrap wow fadeInDown">
+                        <div class="pull-left">
+                               </div>
+<div class="well">
+                        <div class="media-body">
+                            <h3 class="media-heading">Bulk Sms</h3>
+                            
+                        </div>
+                    </div>
+                </div>  
+</div>
+                <div class="col-sm-6 col-md-4">
+                    <div class="media services-wrap wow fadeInDown">
+                        <div class="pull-left">
+                             </div>
+<div class="well">
+                        <div class="media-body">
+                            <h3 class="media-heading">eMail Marketing</h3>
+                            
+                        </div>
+                    </div>
+                </div>
+</div>
+                <div class="col-sm-6 col-md-4">
+                    <div class="media services-wrap wow fadeInDown">
+                        <div class="pull-left">
+                          </div>
+<div class="well">
+                        <div class="media-body">
+                            <h3 class="media-heading">TollFree Number</h3>
+                            
+                        </div>
+                    </div>
+                </div>
+</div>
+                <div class="col-sm-6 col-md-4">
+                    <div class="media services-wrap wow fadeInDown">
+                        <div class="pull-left">
+                             </div>
+<div class="well">
+                        <div class="media-body">
+                            <h3 class="media-heading">Video Marketing</h3>
+                            
+                        </div>
+                    </div>
+</div>
+                </div>                                                
+            </div><!--/.row-->
+        </div><!--/.container-->
+    </section>
 
 
 
-  </div>
-</footer>
+<section id="services" class="service-item">
+	   <div class="container">
+            <div class="center wow fadeInDown">
+                  </div>
 
-<!--
-OpenCart is open source software and you are free to remove the powered by OpenCart if you want, but its generally accepted practise to make a small donation.
-Please donate via PayPal to donate@opencart.com
-//--> 
+            <div class="row">
 
-<!-- Theme created by Welford Media for OpenCart 2.0 www.welfordmedia.co.uk -->
+                <div class="col-sm-6 col-md-4">
+                    <div class="media services-wrap wow fadeInDown">
+                        <div class="pull-left">
+                           </div>
+<div class="well">
+                        <div class="media-body">
+                            <h3 class="media-heading">Graphics design</h3>
+                       
+                        </div>
+                    </div>
+                </div>
+</div>
+                <div class="col-sm-6 col-md-4">
+                    <div class="media services-wrap wow fadeInDown">
+                        <div class="pull-left">
+                           </div>
+<div class="well">
+                        <div class="media-body">
+                            <h3 class="media-heading">LOGO design</h3>
+                            
+                        </div>
+                    </div>
+                </div>
+</div>
+                <div class="col-sm-6 col-md-4">
+                    <div class="media services-wrap wow fadeInDown">
+                        <div class="pull-left">
+                               </div>
+<div class="well">
+                        <div class="media-body">
+                            <h3 class="media-heading">Reputation Marketing</h3>
+                            
+                        </div>
+                    </div>
+                </div>  
+</div>
+                <div class="col-sm-6 col-md-4">
+                    <div class="media services-wrap wow fadeInDown">
+                        <div class="pull-left">
+                             </div>
+<div class="well">
+                        <div class="media-body">
+                            <h3 class="media-heading">Social Media Marketing</h3>
+                            
+                        </div>
+                    </div>
+                </div>
+</div>
+                <div class="col-sm-6 col-md-4">
+                    <div class="media services-wrap wow fadeInDown">
+                        <div class="pull-left">
+                          </div>
+<div class="well">
+                        <div class="media-body">
+                            <h3 class="media-heading">Website Data Security</h3>
+                            
+                        </div>
+                    </div>
+                </div>
+</div>
+                <div class="col-sm-6 col-md-4">
+                    <div class="media services-wrap wow fadeInDown">
+                        <div class="pull-left">
+                             </div>
+<div class="well">
+                        <div class="media-body">
+                            <h3 class="media-heading">Social Media Manager</h3>
+                           
+                        </div>
+                    </div>
+</div>
+                </div>                                                
+            </div><!--/.row-->
+        </div><!--/.container-->
+    </section>
 
-</body></html>
+
+
+
+	<section id="services" class="service-item">
+	   <div class="container">
+            <div class="center wow fadeInDown">
+                  </div>
+
+            <div class="row">
+
+                <div class="col-sm-6 col-md-4">
+                    <div class="media services-wrap wow fadeInDown">
+                        <div class="pull-left">
+                           </div>
+<div class="well">
+                        <div class="media-body">
+                            <h3 class="media-heading">Data base sell/service</h3>
+                       
+                        </div>
+                    </div>
+                </div>
+</div>
+                <div class="col-sm-6 col-md-4">
+                    <div class="media services-wrap wow fadeInDown">
+                        <div class="pull-left">
+                           </div>
+<div class="well">
+                        <div class="media-body">
+                            <h3 class="media-heading">TV Ads</h3>
+                           
+                        </div>
+                    </div>
+                </div>
+</div>
+                <div class="col-sm-6 col-md-4">
+                    <div class="media services-wrap wow fadeInDown">
+                        <div class="pull-left">
+                               </div>
+<div class="well">
+                        <div class="media-body">
+                            <h3 class="media-heading">Google adward/adsense</h3>
+                            
+                        </div>
+                    </div>
+                </div>  
+</div>
+                <div class="col-sm-6 col-md-4">
+                    <div class="media services-wrap wow fadeInDown">
+                        <div class="pull-left">
+                             </div>
+<div class="well">
+                        <div class="media-body">
+                            <h3 class="media-heading">Audio Ad Marketing</h3>
+                            
+                        </div>
+                    </div>
+                </div>
+</div>
+                <div class="col-sm-6 col-md-4">
+                    <div class="media services-wrap wow fadeInDown">
+                        <div class="pull-left">
+                          </div>
+<div class="well">
+                        <div class="media-body">
+                            <h3 class="media-heading">Youtube Channels</h3>
+                            
+                        </div>
+                    </div>
+                </div>
+</div>
+                <div class="col-sm-6 col-md-4">
+                    <div class="media services-wrap wow fadeInDown">
+                        <div class="pull-left">
+                             </div>
+<div class="well">
+                        <div class="media-body">
+                            <h3 class="media-heading">Push Notifications </h3>
+                            
+                        </div>
+                    </div>
+</div>
+                </div>                                                
+            </div><!--/.row-->
+        </div><!--/.container-->
+    </section>	
+
+
+<style>
+h3  {color:deepskyblue}
+</style>
+
+
+</a>
+
+
+		</div>
+	</div>
+</div>
+<!-- //services -->
+<!-- work -->
+<div id="work" class="work all_pad text-center">
+	<div class="container">
+		<h3 class="title">WORK STEPS</h3>
+		<p class="para"><span> How </span>We Do?
+		</p>
+		<div class="col-md-8 where-right">
+			<div class="wel-left">
+				<div class="work-left">
+					<h4>01</h4>
+				</div>
+				<div class="work-right text-left">
+					<h5>PROJECT UNDERSTANDING</h5>
+					<p>
+
+Firstly, we will find out what you require by listening to the brief and ensure we understand what is required.
+
+
+</p>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+			<div class="wel-right ">
+				<div class="content-item item-image1">
+					<div class="overlay"></div>
+					  <div class="corner-overlay-content"></div>
+					  <div class="overlay-content">
+					  </div>
+				</div>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+		<div class="clearfix"></div>
+		<div class="col-md-8 where-right no-marg">
+			<div class="wel-right2">
+				<div class="content-item item-image2">
+					<div class="overlay"></div>
+					  <div class="corner-overlay-content"></div>
+					  <div class="overlay-content">
+					  </div>
+				</div>
+			</div>
+			<div class="wel-left2">
+				<div class="work-left">
+					<h4>02</h4>
+				</div>
+				<div class="work-right text-left">
+					<h5>RESEARCH & PLANNING</h5>
+					<p>We start our projects with three concrete parties in mind: your audience, your competition, and you. With these goals in mind, we're ready for development.
+</p>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+		<div class="clearfix"></div>
+	</div>
+</div>
+<!-- //services -->
+<!-- portfolio -->
+
+
+
+<div id="portfolio" class="portfolio all_pad text-center">
+	<div class="container">
+		<h3 class="title">Why AddMarts ?</h3>
+		<p class="para"><span> Top 7 Reasons To choose us</span>.</p>
+        <div class="filtr-container ">
+                <div class=" col-md-6 filtr-item baner-top" data-category="1, 5" data-sort="Busy streets">
+					<a href="images/g1.jpg" class="b-link-stripe b-animate-go  swipebox">
+							<div class="gal-spin-effect vertical ">
+								<img src="images/g1.jpg" alt=" " />
+								<div class="gal-text-box">
+									<div class="info-gal-con">
+										<h4>
+
+DRIVES AND INCREASE IN SALES
+</h4>
+										<span class="divider"></span>
+										<p>
+
+
+<span>Addmarts India</span> digital marketing is more effective in generating sales at it presents more opportunities of connecting with targeted customers.
+</p>
+										<span class="divider"></span>
+									</div>
+								</div>
+							</div>
+					</a>
+                </div>
+                <div class="col-md-6 filtr-item baner-top" data-category="2, 5" data-sort="Luminous night">
+					<a href="images/g2.jpg" class="b-link-stripe b-animate-go  swipebox">
+							<div class="gal-spin-effect vertical ">
+								<img src="images/g2.jpg" alt=" " />
+								<div class="gal-text-box">
+									<div class="info-gal-con">
+										<h4>
+ENABLES YOU TO SUPPORT YOUR TARGETED CUSTOMER'S CHOICE
+</h4>
+										<span class="divider"></span>
+										<p>
+
+
+Addmarts digital marketing approach provides your customers with the options where they can best interact with you brand, allowing them to choose which would best align with their purchasing decision
+</p>
+										<span class="divider"></span>
+									</div>
+								</div>
+							</div>
+					</a>
+                </div>
+				<div class="col-md-4 filtr-item baner-top ban-mar" data-category="3, 4" data-sort="Industrial site">
+					<a href="images/g3.jpg" class="b-link-stripe b-animate-go  swipebox">
+							<div class="gal-spin-effect vertical ">
+								<img src="images/g3.jpg" alt=" " />
+								<div class="gal-text-box">
+									<div class="info-gal-con">
+										<h4>MORE COST-EFFECTIVE
+</h4>
+										<span class="divider"></span>
+										<p>
+
+It can keep your operational expenses at minimum by utilizing this cost- effective strategy that delivers profitable results.</p>
+										<span class="divider"></span>
+									</div>
+								</div>
+							</div>
+					</a>
+                </div>
+                <div class="col-md-4 filtr-item baner-top ban-mar" data-category="2, 4" data-sort="Peaceful lake">
+					<a href="images/g4.jpg" class="b-link-stripe b-animate-go  swipebox">
+							<div class="gal-spin-effect vertical ">
+								<img src="images/g4.jpg" alt=" " />
+								<div class="gal-text-box">
+									<div class="info-gal-con">
+										<h4>QUICK RESPONSE</h4>
+										<span class="divider"></span>
+
+
+With Addmarts digital marketing approach brands can retarget  and remarket  to consumers until they find the best mix of digital tools.
+
+										<p>
+</p>
+										<span class="divider"></span>
+									</div>
+								</div>
+							</div>
+					</a>
+                </div>
+                <div class="col-md-4  filtr-item baner-top ban-mar" data-category="1, 5" data-sort="City lights">
+                    <a href="images/g5.jpg" class="b-link-stripe b-animate-go  swipebox">
+							<div class="gal-spin-effect vertical ">
+								<img src="images/g5.jpg" alt=" " />
+								<div class="gal-text-box">
+									<div class="info-gal-con">
+										<h4>INTERACTIVE ENGAGEMENT
+</h4>
+										<span class="divider"></span>
+										<p>
+It gives you the opportunity to engage with your targeted audiences in a more frequent and more interactive manner.
+</p>
+										<span class="divider"></span>
+									</div>
+								</div>
+							</div>
+					</a>
+                </div>
+                <div class="col-md-6 filtr-item baner-top" data-category="1, 4" data-sort="City wonders">
+					<a href="images/g6.jpg" class="b-link-stripe b-animate-go  swipebox">
+							<div class="gal-spin-effect vertical ">
+								<img src="images/g6.jpg" alt=" " />
+								<div class="gal-text-box">
+									<div class="info-gal-con">
+										<h4>BETTER DATA COLLECTION AND ANALYSIS
+</h4>
+										<span class="divider"></span>
+										<p>
+These systems provide valuable information that can help marketers get a better understanding of their customers, including a way to measure the efficacy of a particular digital touch point in relation to their customers buyer journey.
+</p>
+										<span class="divider"></span>
+									</div>
+								</div>
+							</div>
+					</a>
+                </div>
+                <div class=" col-md-6 filtr-item baner-top" data-category="3" data-sort="In production">
+					<a href="images/g3.jpg" class="b-link-stripe b-animate-go  swipebox">
+							<div class="gal-spin-effect vertical ">
+								<img src="images/g3.jpg" alt=" " />
+								<div class="gal-text-box">
+									<div class="info-gal-con">
+										<h4>RETARGETING AND REMARKETING
+</h4>
+										<span class="divider"></span>
+										<p>
+Addmarts digital marketing allow business owners with an efficient and effective quick - response strategy to satisfy your targeted customer's demands.
+</p>
+										<span class="divider"></span>
+									</div>
+								</div>
+							</div>
+					</a>
+                </div>
+                
+               
+               <div class="clearfix"> </div>
+           
+		</div> 
+	</div>
+</div>
+<!-- //portfolio -->
+<!-- contact -->
+<div id="contact" class="contact">
+		<div class="col-md-4 contact_left text-center">
+			<ul>
+				<li><a class="fb" href="http://fb.com/addmartsindia"></a></li>
+				<li><a class="twit" href="#"></a></li>
+				<li><a class="goog" href="#"></a></li>
+				
+				<li><a class="pin" href="#"></a></li>
+			</ul>
+		</div>
+		<div class="col-md-8 contact_right text-center">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3582.2539484101585!2d85.36610201461677!3d26.12326168347398!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39ed10c4fba0614b%3A0xf0d56c6999b27922!2sAddmarts+India+pvt+ltd!5e0!3m2!1sen!2sin!4v1482385430051" style="border:0"></iframe>
+			<div class="map">
+				<h3 class="title">CONTACT US</h3>
+				<p class="para">Have A<span> Coffee </span> With Us</p>
+				<ul class="contact-list text-left">
+					<li>n_14 new Delhi India</li>
+					<li>+91 
+98352 91554
+</li>
+					<li><a href="mailto:contact@addmarts.com">contact@addmarts.com</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="clearfix"></div>
+</div>
+<!-- //contact -->
+<!-- footer -->
+<div class="footer">
+	<div class="container">
+		<form action="price.php" method="post">
+			<div class="col-md-6 footer-left">
+				<input type="text" value="Name" name="field1" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name';}" required="">
+				<input type="email" value="Email" name="field2" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email';}" required="">
+				<input type="text" value="Mobile Number" name="field3" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Mobile Number';}" required="">
+			</div>
+			<div class="col-md-6 footer-right">			
+				<textarea name="field4" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Message...';}" required="">Message...</textarea>	
+				<input type="submit" value="Submit Now">	
+			</div>
+			<div class="clearfix"></div>
+				
+		</form>
+		<p class="copy-rights">&copy; 2016 Adm. All Rights Reserved | Design by <a href="#"> Addmarts India</a> | <a href="career.html">Career</a></p>
+
+	</div>
+</div>
+<!-- //footer -->
+<script type="text/javascript" src="js/bootstrap-3.1.1.min.js"></script>
+<!-- smooth scrolling -->
+	<script type="text/javascript">
+		$(document).ready(function() {
+		/*
+			var defaults = {
+			containerID: 'toTop', // fading element id
+			containerHoverID: 'toTopHover', // fading element hover id
+			scrollSpeed: 1200,
+			easingType: 'linear' 
+			};
+		*/								
+		$().UItoTop({ easingType: 'easeOutQuart' });
+		});
+	</script>
+	<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+<!-- //smooth scrolling -->
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+var omitformtags=["input", "textarea", "select"]
+omitformtags=omitformtags.join("|")
+function disableselect(e){
+if (omitformtags.indexOf(e.target.tagName.toLowerCase())==-1)
+return false
+}
+function reEnable(){
+return true
+}
+if (typeof document.onselectstart!="undefined")
+document.onselectstart=new Function ("return false")
+else{
+document.onmousedown=disableselect
+document.onmouseup=reEnable
+}
+
+</script>
+
+
+</body>
+</html>	
